@@ -1,14 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package projetoaula1908;
 
-/**
- *
- * @author laboratorio
- */
 public class Pessoa {
+
     public String nome;
     public char sexo;
     public String idioma;
@@ -21,6 +14,10 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "Nome: " + nome + ", Sexo: " + sexo + ", Idioma: " + idioma +"\n";
+        return "Nome: " + nome + ", Sexo: " + sexo + ", Idioma: " + idioma + "\n";
+    }
+    
+    public Object[] obterDados(){
+        return new Object[] {nome, sexo, idioma};
     }
 }

@@ -8,14 +8,14 @@ package projetoaula1908;
  *
  * @author laboratorio
  */
-public class FormularioTexto extends javax.swing.JFrame {
-    
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(FormularioTexto.class.getName());
+public class OLDFormularioTexto extends javax.swing.JFrame {
+
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(OLDFormularioTexto.class.getName());
 
     /**
      * Creates new form ProjetoAula1908
      */
-    public FormularioTexto() {
+    public OLDFormularioTexto() {
         initComponents();
     }
 
@@ -112,12 +112,12 @@ public class FormularioTexto extends javax.swing.JFrame {
 
     private void btnAddMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddMensagemActionPerformed
         //txaTexto.setText(txtMensagem.getText());
-        txaTexto.append(txtMensagem.getText()+"\n");
+        txaTexto.append(txtMensagem.getText() + "\n");
         txtMensagem.setText("");
     }//GEN-LAST:event_btnAddMensagemActionPerformed
 
     private void txtMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMensagemActionPerformed
-        txaTexto.append(txtMensagem.getText()+"\n");
+        txaTexto.append(txtMensagem.getText() + "\n");
         txtMensagem.setText("");
     }//GEN-LAST:event_txtMensagemActionPerformed
 
@@ -143,7 +143,7 @@ public class FormularioTexto extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new FormularioTexto().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new OLDFormularioTexto().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
